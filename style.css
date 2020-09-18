@@ -1,0 +1,74 @@
+*
+{
+margin: 0;
+padding: 0;
+}
+<!--anna ci Colors-->
+.annaBlack {
+  color:#343a40;
+}
+.annaYellow1 {
+  color:#d6ad5a;
+}
+.annaYellow2 {
+  color:#e8cb90;
+}
+.annaWhite {
+  color:#dddddd;
+}
+.fontMain {
+  font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  ;
+}
+.fontSecond {
+  font-family: "Muli", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+header
+{
+    background-image: linear-gradient(rgba(52, 58, 64,0.8),rgba(25, 27, 29, 0.8)),url(DANA_Portrait.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+}
+.hero {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    color: #343a40;
+    text-align: center;
+}
+h1{
+    font-size: 3rem;
+    margin: 2rem auto;
+    letter-spacing: 0.5rem;
+    /* font-family: 'Oswald',sans-serif */
+}
+
+hr{
+    width: 50%;
+    margin: 2rem auto;
+    border: 1px solid;
+    border-color: #e8cb90;
+}
+
+p{
+    font-size: 1.2rem;
+    margin-bottom: 3rem;
+    letter-spacing: 0.2rem;
+    /* font-family: 'inter', sans-serif; */
+}
+
+a {
+    font-size: 1rem;
+    margin-bottom: 10rem;
+    letter-spacing: 0.2rem;
+}
+
+a:hover {
+    color: #e8cb90
+}
+a:visited {
+    color: #343a40
+}
