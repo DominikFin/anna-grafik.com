@@ -1,6 +1,7 @@
 // List of sentences
 var _CONTENT = [ 
-    "Seien Sie Gespannt!"
+    "Seien Sie Gespannt!",
+    "Ich freue mich auf Sie!"
 ];
 
 // Current sentence being processed
