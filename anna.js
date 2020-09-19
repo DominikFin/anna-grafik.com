@@ -1,14 +1,14 @@
 // List of sentences
 var _CONTENT = [ 
     "Seien Sie Gespannt!",
-    "Ich freu mich auf Sie!"
+    "Ich freue mich auf Sie!"
 ];
 
 // Current sentence being processed
 var _PART = 0;
 
 // Character number of the current sentence being processed 
-var _PART_INDEX = 9;
+var _PART_INDEX = 0;
 
 // Holds the handle returned from setInterval
 var _INTERVAL_VAL;
@@ -33,7 +33,7 @@ function Type() {
 
 		clearInterval(_INTERVAL_VAL);
 		setTimeout(function() {
-			_INTERVAL_VAL = setInterval(Delete, 50);
+			_INTERVAL_VAL = setInterval(Delete, 80);
 		}, 5000);
 	}
 }
