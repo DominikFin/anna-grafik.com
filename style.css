@@ -72,3 +72,33 @@ a:hover {
 a:visited {
     color: #343a40
 }
+
+#container {
+	text-align: center;
+}
+
+#text {
+  font-size: 3rem;
+  display: inline-block;
+	vertical-align: middle;
+	color: #dddddd;
+	letter-spacing: 0.5rem;
+}
+
+#cursor {
+	display: inline-block;
+	vertical-align: middle;
+	width: 3px;
+	height: 50px;
+	background-color: #dddddd;
+	animation: blink .75s step-end infinite;
+}
+
+@keyframes blink {
+	from, to { 
+		background-color: transparent 
+	}
+	50% { 
+		background-color:#dddddd; 
+	}
+}
